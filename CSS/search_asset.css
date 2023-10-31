@@ -1,0 +1,171 @@
+body {
+    background-image: url('/png/assest.png');
+    background-repeat: no-repeat;
+background-size: cover 200%;
+}
+
+.sec1tex {
+    color: white;
+    font-size: 52px;
+
+}
+.mainlogo{
+    text-decoration: none;
+    color: white;
+}
+.mainlogo:hover{
+    color: white;
+}
+#not_logo {
+    text-decoration: none;
+    list-style: none;
+   
+    padding-right: 14px;
+}
+
+#ul_con{
+    width: 270px;
+}
+
+.searchbox input[type="text"] {
+    color: white;
+    width: 68%;
+    padding: 15px;
+    padding-left: 32px;
+
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+
+
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+#searchbox {
+    
+    text-align: center;
+}
+
+.search_box {
+
+    margin-top: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sec2 {
+    border: 2px solid red;
+    height: 294px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:768px) {
+    .sec2img {
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+
+
+.font-fam{
+    font-family: 'Inter', sans-serif;
+}
+#icon{
+    position: absolute;
+    color: #8c8181;
+    top: 138px;
+    left: 80px;
+}
+@media screen and (min-width:768px) {
+    #icon{
+        position: absolute;
+        color: #8c8181;
+        top: 115px;
+        left: 275px;
+    }
+}
+
+
+#sec2im{
+    text-align: center;
+        padding-top: 150px;
+}
+@media screen and (min-width:768px) {
+    #sec2im{
+        text-align: center;
+            padding-top: 30px;
+    }
+}
+
+#sec2im img{
+    height: 150px;
+}
+@media screen and (min-width:768px) {
+    #sec2im img{
+        height: 250px;
+       
+    }
+}
+#mess_li p{
+    margin: 0px;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+#mess_li1 a{
+ text-decoration: none;
+    font-size: 14px;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+.clear a{
+    font-size: 14px;
+    padding-top: 6px;
+    color: blue;
+}
+.card p{
+    font-size: 16px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#not_head a{
+    font-size: 22px;
+
+}
+.images img{
+    width: 46px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+ 
+    width: 300px;
+    margin-left: 200px;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }

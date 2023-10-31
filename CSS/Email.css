@@ -1,0 +1,109 @@
+*{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body{
+    background-image: url('/png/assest.png');
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.sec1{
+    text-align: end;
+}
+.sec1 img{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.sec2{
+    background-color: #E5E5E5;
+    border:2px solid ;
+    border-radius: 25px ;
+    height: 362px;
+    width:80%;
+    margin: 140px 32px 0px 41px
+}
+#c2{
+    height: 228px;
+}
+@media screen and (min-width:768px) {
+    .sec2{
+        background-color: #E5E5E5;
+        border:2px solid ;
+        border-radius: 25px ;
+        height: 280px;
+        width: 55%;
+        margin: 100px 0px 0px 0px
+    }
+}
+.form{
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+.sec3{
+    text-align: center;
+    width: 80%;
+    height: 42%;
+    border-radius: 14px;
+    background: white;
+    margin: 20px 10px 0px 26px;
+    border: 2px solid rgb(229, 225, 225);
+}
+@media screen and (min-width:768px) {
+    .sec3{
+        text-align: center;
+        width: 80%;
+        height: 42%;
+        border-radius: 14px;
+        background: white;
+        margin: 41px 10px 0px 58px;
+        border: 2px solid rgb(255, 255, 255);
+    } 
+}
+.sec3p{
+    font-size: 20px;
+}
+.sec2p{
+    font-size: 32px;
+}
+@media screen and (min-width:768px) {
+    .sec2p{
+        font-size: 40px;
+    }
+}
+
+
+#sec2r1{
+    margin-top: 29px;
+}
+
+
+.input{
+    padding: 4px;
+    width: 85%;
+    background-color: #E5E5E5;
+    border: white;
+}
+@media screen and (min-width:768px) {
+    .input{
+        border: white;
+        padding: 4px;
+        width: 56%;
+        background-color: #E5E5E5;
+    }
+}
+.dropdown-menu show{
+    display: none;
+}
+
+.ul{
+    background: white;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-grid;
+    position: absolute;
+    top: 58px;
+    right: 163px;
+}

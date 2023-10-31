@@ -1,0 +1,40 @@
+*{
+    font-family: 'Inter', sans-serif;
+    
+}
+body {
+    background-image: url('/png/assest.png');
+    background-repeat: no-repeat;
+background-size: cover 200%;
+}
+#c1{
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+.c2{
+    border-radius: 30px;
+    background-color: #e5e5e5;
+    width: 612px;
+    height: 442px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.c2p1{
+  margin-top: 35px;
+    font-size: 32px;
+}
+.labels{
+    text-align: start;
+}
+#input2{
+    height: 166px;
+    border-radius: 19px;
+}
+#input1{
+    border-radius: 19px;
+}
+.btn{
+    margin-top: 25px;
+    border-radius: 18px;
+}

@@ -1,0 +1,146 @@
+
+@media screen and (min-width:786px){
+  body {
+    background-image: url('/png/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+  background-size: 50% 100%;
+}
+}
+.form-1{
+    border: 1px black;
+    border-block-end-style: revert;
+}
+.font-fam-1{
+  font-size: 24px;
+  font-weight:bold;
+  font-family: 'Inter', sans-serif;
+}
+.font-fam-2{
+ font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+.tex1{
+  font-size: 30px;
+  text-align: -webkit-center;
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+@media screen and (min-width:786px) {
+  .tex1{
+    font-weight: bold;
+    font-size: 5vh;
+    padding-left: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: -webkit-left;
+  }
+}
+.tex2{
+  font-size: 22px;
+  justify-content: left;
+  text-align: -webkit-center;
+  font-family: 'Inter', sans-serif;
+}
+@media screen and (min-width:786px) {
+  .tex2{
+    font-size: 3vh;
+    padding-left: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: -webkit-auto;
+  }
+}
+
+
+.img1{
+  padding-top: 35px;
+  text-align: center;
+}
+@media screen and (min-width:786px){
+  .img1{
+    text-align: end;
+  }
+}
+
+
+#sect1{
+  margin: 0px 0px 0px 37px;
+}
+@media screen and (min-width:786px) {
+  #sect1{
+    margin: 43px 0px 0px 62px;
+  }
+}
+#sec2{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+@media screen and (min-width:786px) {
+  #sec2{
+    padding: 78px 0px 0px 100px;
+    margin: 27px 0px 0px 0px;
+  }
+}
+
+#exampleEnterName{
+  border-style: none;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#exampleEnterEmail{
+  border-style: none;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#exampleInputPassword1{
+  border-style: none;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.form-group{
+  padding-top: 24px;
+}
+
+.button{
+  
+  padding-top: 40px;
+  text-align: center;
+}
+@media screen and (min-width:768px) {
+  .button{
+  
+    padding-top: 52px;
+    padding-right: 62px;
+    text-align: center;
+  }
+}
+.btntex{
+  font-size: 17px;
+}
+.btntex a{
+  padding-left: 10px;
+  font-weight: lighter;
+}
+
+.logo1{
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width:768px) {
+  .logo1{
+    display: flex;
+    align-items: center;
+  padding-right: 76px;
+}
+}
+.formsec{
+ margin-top: 40px;
+}
+.btntex{
+  padding-top: 15px;
+}

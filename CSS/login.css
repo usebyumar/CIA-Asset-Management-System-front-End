@@ -1,0 +1,186 @@
+
+@media screen and (min-width:786px){
+    body {
+      background-image: url('/png/background.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: right;
+    background-size: 50% 100%;
+  }
+}
+.line {
+    flex-grow: 1;
+    border-top: 1px solid black;
+  }
+  .centered-text {
+    padding: 0px 16px;
+    font-size: 12px;
+  }
+  .line-container {
+    display: flex;
+    align-items: center;
+    padding-right: 52px;
+    
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width:786px){
+  .line-container {
+    display: flex;
+    align-items: center;
+    padding-right: 127px;
+    padding-left: 36px;
+    padding-bottom: 60px;
+  }
+}
+  .sec1{
+    margin-left: 27px;
+    margin-top: 18px;
+    margin-right: -11px;
+  }
+  @media screen and (min-width:786px) {
+    
+      .sec1{
+        margin-left: 37px;
+        
+        margin-top: 60px;
+      }
+  }
+
+#exampleEnterName{
+border-style: none;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-bottom: 1px solid black;
+  }
+#exampleEnterEmail{
+    border-style: none;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-bottom: 1px solid black;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    padding: 12px 51px 10px 1px;
+}
+
+@media screen and (min-width:786px) {
+.logo1{
+    display: flex;
+    align-items: center;
+    padding: 12px 126px 10px 25px;
+}
+}
+.welctex{
+    padding-bottom: 19px;
+    padding-left: 56px;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+@media screen and (min-width:786px) {
+    .welctex{
+        padding-bottom: 60px;
+        padding-left: 25px;
+        font-weight: bold;
+        font-size: 32px;
+        font-family: 'Inter', sans-serif;
+    }   
+}
+.fon_fam{
+    font-family: 'Inter', sans-serif;
+}
+
+.button{
+    padding-right: 60px;
+    padding-top: 45px;
+}
+.fgetpssd{
+    
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    top: 14px;
+   
+}
+@media screen and (min-width:786px) {
+    .fgetpssd{
+        display: inline-block;
+        position: relative;
+        right: 122px;
+        top: -26px;
+    
+    }  
+}
+
+.btntex{
+    padding-top: 38px;
+    text-align: center;
+    
+}
+.sectex1{
+    color: black;
+    font-size: 36px;
+}
+@media screen and (min-width:786px) {
+    .sectex1{
+        text-align: start;
+        color: white;
+        font-size: 26px;
+    }   
+}
+.sectex2{
+   color: black;
+   font-size: 16px;
+   display: flex;
+    flex-wrap: nowrap;
+}
+@media screen and (min-width:786px) {
+    .sectex2{
+        text-align: start;
+        color: white;
+        font-size: 16px;
+    }
+    
+}
+.sec2{
+    text-align: center;
+}
+@media screen and (min-width:786px) {
+    .sec2{
+        padding-top: 152px;
+        padding-left: 35px;
+        padding-right: 184px;
+    } 
+}
+
+.sec2img{
+    padding-left: 0px;
+}
+@media screen and (min-width:786px) {
+    
+    .sec2img{
+        padding-left: 188px;
+    }
+}
+.fget{
+    text-align: start;
+}
+@media screen and (min-width:786px) {
+    .fget{
+        text-align: end;
+    }
+}
+#fgetcol{
+    padding-top: 16px;
+    padding-left: 25px;
+}
+@media screen and (min-width:786px) {
+#fgetcol{
+    padding-top: 16px;
+    padding-left: 48px;
+}
+}
+.btntex a{
+    padding-left: 10px;
+}
